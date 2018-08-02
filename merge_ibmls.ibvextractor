@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "type": "ibtransformerchain",
+  "parameters": {
+    "default_edit_transformer": 0,
+    "transformers": [
+      {
+        "version": "1.0.0",
+        "type": "merge_ibmls",
+        "parameters": {
+          "show_output": false,
+          "animate_output": false
+        }
+      }
+    ]
+  }
+}

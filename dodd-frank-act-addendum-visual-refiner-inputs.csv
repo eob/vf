@@ -1,0 +1,22 @@
+﻿Type,Name,Value,Query,occurs_below,occurs_above,tolerance,ignore case,offset_angle,offset_distance,offset_unit,rect_top,rect_right,rect_bottom,rect_left,rect_unit
+CHECK_BOX,BoxA_FinancialEntityStatus,Not a financial entity,Not a Financial Entity,Counterparty makes a one-time election,An Insured Small Bank,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxA_FinancialEntityStatus,Insured small bank,An Insured Small Bank,Not a Financial Entity,A Captive Finance Company,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxA_FinancialEntityStatus,Captive finance company,A Captive Finance Company,An Insured Small Bank,A Cooperative,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxA_FinancialEntityStatus,Cooperative,A Cooperative,A Captive Finance Company,An Eligible Treasury Affiliat,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxA_FinancialEntityStatus,Eligible Treasury Affiliate,An Eligible Treasury Affiliat,A Cooperative,employee benefit plan as defined,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxB_HedgeOrMitigate,checked,The Electing Counterparty will only elect,HEDGE OR MITIGATE COMMERCIAL RISK,FINANCIAL OBLIGATIONS,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxC_FinancialObligations,Written credit support agreement,A written credit support,Division of Clearing and Risk,The Electing Counterparty generally meets its,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxC_FinancialObligations,Pledged or segregated assets,Pledged or segregated assets,A written credit support,A written guarantee from,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxC_FinancialObligations,Written guarantee,A written guarantee from,Pledged or segregated assets,The Electing Counterparty's available,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxC_FinancialObligations,Available financial resources,The Electing Counterparty's available,A written guarantee from,Means other than those described,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+CHECK_BOX,BoxC_FinancialObligations,Other means,Means other than those described,The Electing Counterparty's available,ELECTING COUNTERPARTY IS AN ISSUER,3,1,270,1.5,BOX_HEIGHT,0.9,1,0.7,1,BOX_HEIGHT
+SIGNATURE,Signature_Cap1,True,Name:,Commercial Banking,RATES EX CAPS,3,1,90,4,BOX_HEIGHT,1.3,23,0.5,0,BOX_HEIGHT
+SIGNATURE,Signature_Counterparty,True,Name:,Commercial Banking,RATES EX CAPS,3,1,90,4,BOX_HEIGHT,1.3,23,0.5,0,BOX_HEIGHT
+CHECK_BOX,BoxD_USPersonStatus,Not a US Person,NOT A U.S. PERSON,Appendix II ,SWAP DEALER STATUS,,,,,,,,,,
+CHECK_BOX,BoxD_USPersonStatus,US Person,U.S. PERSON,Appendix II ,SWAP DEALER STATUS,,,,,,,,,,
+CHECK_BOX,BoxE_SwapDealer,Yes,Counterparty is a swap dealer,SWAP DEALER STATUS,MAJOR SWAP PARTICIPANT STATUS,,,,,,,,,,
+CHECK_BOX,BoxE_SwapDealer,No,Counterparty is not a swap dealer,SWAP DEALER STATUS,MAJOR SWAP PARTICIPANT STATUS,,,,,,,,,,
+CHECK_BOX,BoxE_SwapParticipant,Yes,Counterparty is a major,MAJOR SWAP PARTICIPANT STATUS,FINANCIAL ENTITY STATUS,,,,,,,,,,
+CHECK_BOX,BoxE_SwapParticipant,No,Counterparty is not a major,MAJOR SWAP PARTICIPANT STATUS,FINANCIAL ENTITY STATUS,,,,,,,,,,
+CHECK_BOX,BoxF_FinancialEntity,Yes,Counterparty is a financial,FINANCIAL ENTITY STATUS,,,,,,,,,,,
+CHECK_BOX,BoxF_FinancialEntity,No,Counterparty is not a financial,FINANCIAL ENTITY STATUS,,,,,,,,,,,

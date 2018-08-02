@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "type": "ibtransformerchain",
+  "parameters": {
+    "default_edit_transformer": 0,
+    "transformers": [
+      {
+        "version": "1.0.0",
+        "type": "string_to_numpy_image",
+        "parameters": {
+          "input_type": "many"
+        }
+      },
+      {
+        "version": "1.0.0",
+        "type": "extract_w8bene_data",
+        "parameters": {
+          "show_output": false,
+          "animate_output": false,
+          "error_percent_tolerable": 0.009,
+          "binarize_contours": true,
+          "only_write_files_if_extracted_target": true,
+          "require_constellation_alignment": false,
+          "_constellation_alignment_algorithm": "coherent_point_drift:affine",
+          "constellation_alignment_algorithm": "opencv:homographic"
+        }
+      },
+      {
+        "version": "1.0.0",
+        "type": "numpy_image_to_string",
+        "parameters": {
+          "image_format": "jpg"
+        }
+      }
+    ]
+  }
+}
